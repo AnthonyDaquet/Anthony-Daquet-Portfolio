@@ -494,7 +494,7 @@ nav .logo{
 	.show{
 		display: block;
 		color: white;
-		font-size: 16px;
+		font-size: 20px;
 		padding: 0px;
 		line-height: 70px;
 		cursor: pointer;
@@ -512,7 +512,7 @@ nav .logo{
 		position: absolute;
 		right: 40px;
 		line-height: 100px;
-		font-size: 25px;
+		font-size: 40px;
 		cursor: pointer;
 	}
 	nav ul li a:hover{
@@ -524,6 +524,14 @@ nav .logo{
 	
 	[id^=btn]:checked + ul{
 		display: block;
+	}
+		
+		.logo-img{
+	max-width: 150px;
+	display:flex;
+	align-items: center;
+	align-content: center;
+	margin: auto;
 	}
 }
 		
