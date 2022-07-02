@@ -638,15 +638,12 @@ nav .logo{
 	}
 		
 		nav .logo{
-	line-height: 100px;
+	line-height: 200px;
 			margin: auto;
 }
 		
 		.logo-img{
 	max-width: 150px;
-	display:flex;
-	align-items: center;
-	align-content: center;
 	margin: auto;
 	}
 		
@@ -661,7 +658,7 @@ nav .logo{
 	justify-content: center;
 	padding-bottom: 1vh;
 			font-size: .85em;
-				visibility: visible;
+				visibility: visible!important;
 	}
 	
 }
