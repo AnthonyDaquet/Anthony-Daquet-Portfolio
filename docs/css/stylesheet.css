@@ -652,13 +652,7 @@ nav .logo{
 		}
 
 			.projects-table2{
-	margin: auto;
-	display: flex;
-	text-align: center;
-	justify-content: center;
-	padding-bottom: 1vh;
-			font-size: .85em;
-				visibility: visible!important;
+	visibility: visible!important;
 	}
 	
 }
