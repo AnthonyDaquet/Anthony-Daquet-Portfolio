@@ -650,7 +650,7 @@ nav .logo{
 	}
 		
 		nav .logo{
-	line-height: 70px;
+	line-height: 100px;
 			margin: auto;
 }
 		
@@ -663,21 +663,8 @@ nav .logo{
 	}
 		
 		.featured_work{
-			margin: 90%;
+			width: 90%;
 		}
-		
-		.all_projects {
-	border-radius: 10px;
-	background-color: rgba(0,63,78,1);
-	max-width: 90%;
-	color: white;
-	margin: auto;
-	display: block;
-	text-align: center;
-	justify-content: center;
-	padding: .15em;
-	cursor: pointer;
-	box-shadow: 3px 3px 7px rgba(0,0,0,.5);
-}
+
 }
 		
