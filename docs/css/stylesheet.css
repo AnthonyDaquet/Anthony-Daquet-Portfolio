@@ -140,7 +140,10 @@ nav .logo{
 	display: none;
 }
 
-@media all and (max-width: 636px){
+@media all and (max-width: 636px)
+and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+	and (-webkit-min-device-pixel-ratio: 2){
 	nav ul{
 		margin-right: 0px;
 		float: left;
