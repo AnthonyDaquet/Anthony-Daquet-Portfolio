@@ -378,30 +378,30 @@ nav .logo{
 	}
 	
 	.featured_work{
-		max-width: 80%;
+		max-width: 95%;
 	}
 	.all_projects{
-		max-width: 80%;
+		max-width: 95%;
 	}
 	
 	hr{
-		width: 80%;
+		width: 95%;
 	}
 	
 	.contact{
-		width: 80%;
+		width: 95%;
 	}
 	
 	.projects{
-		max-width: 80%;
+		max-width: 95%;
 	}
 	
 	.portfolio-project{
-		width: 85%;
+		width: 95%;
 	}
 	
 	.portfolio-project-covers{
-	width: 75%;
+	width: 95%;
 	}
 	
 }
