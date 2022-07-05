@@ -281,12 +281,11 @@ nav .logo{
 .projects {
 	border-radius: 10px;
 	background-color: rgba(0,63,78,1);
-	max-width: 70%;
+	width: 85%;
 	color: white;
 	margin: auto;
 	display: block;
 	text-align: center;
-	padding: .5em;
 	box-shadow: 3px 3px 7px rgba(0,0,0,.5);
 }
 
@@ -393,7 +392,7 @@ nav .logo{
 	}
 	
 	.projects{
-		max-width: 92%;
+		width: 92%!important;
 	}
 	
 	.portfolio-project{
@@ -401,7 +400,7 @@ nav .logo{
 	}
 	
 	.portfolio-project-covers{
-	max-width: 100%;
+	max-width: 80%!important;
 	}
 	
 	.welcome{
@@ -483,7 +482,7 @@ nav .logo{
 }
 
 .portfolio-project-covers{
-	width: 65%;
+	max-width: 60%;
 	box-shadow: 5px 5px 10px rgba(0,0,0,.75);
 	margin-bottom: 2%;
 }
