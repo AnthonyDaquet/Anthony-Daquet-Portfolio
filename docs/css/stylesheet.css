@@ -141,7 +141,7 @@ nav .logo{
 	display: none;
 }
 
-@media all and (max-width: 650px){
+@media all and (max-width: 700px){
 	nav ul{
 		margin-right: 0px;
 		float: left;
@@ -396,7 +396,7 @@ nav .logo{
 	}
 	
 	.portfolio-project{
-		width: 110%;
+		max-width: 90%!important;
 	}
 	
 	.portfolio-project-covers{
@@ -476,9 +476,9 @@ nav .logo{
 }
 
 .portfolio-project{
-	width: 75%;
+	max-width: 75%;
 	box-shadow: 5px 5px 10px rgba(0,0,0,.75);
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 }
 
 .portfolio-project-covers{
