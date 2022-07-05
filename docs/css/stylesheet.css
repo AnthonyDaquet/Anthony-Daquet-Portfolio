@@ -392,6 +392,18 @@ nav .logo{
 		width: 80%;
 	}
 	
+	.projects{
+		max-width: 80%;
+	}
+	
+	.portfolio-project{
+		width: 85%;
+	}
+	
+	.portfolio-project-covers{
+	width: 75%;
+	}
+	
 }
 
 @media (max-width: 950px){
