@@ -202,9 +202,11 @@ nav .logo{
 		font-size: 35px;
 		cursor: pointer;
 	}
+	
 	nav ul li a:hover{
 		box-shadow: none;
 	}
+	
 	.show + a, ul{
 		display: none;
 	}
@@ -400,7 +402,7 @@ nav .logo{
 	}
 	
 	.portfolio-project-covers{
-	max-width: 80%!important;
+	max-width: 50%!important;
 	}
 	
 	.welcome{
@@ -486,9 +488,24 @@ nav .logo{
 }
 
 .portfolio-project-covers{
-	max-width: 60%;
+	max-width: 50%;
 	box-shadow: 5px 5px 10px rgba(0,0,0,.75);
+	margin-right: 2%;
+}
+
+.portfolio-project-covers-2{
+	width: 35%;
+	box-shadow: 5px 5px 10px rgba(0,0,0,.75);
+
+}
+
+.comic{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin-bottom: 2%;
+	padding-left: auto;
+	padding-right: auto;
 }
 
 .portfolio-project-rows{
@@ -498,7 +515,7 @@ nav .logo{
 
 .project-title{
 	margin-bottom: 10px;
-	margin-top: 10px;
+	padding-top: 2%;
 }
 
 /* Back to Top */
