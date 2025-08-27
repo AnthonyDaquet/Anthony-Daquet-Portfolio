@@ -141,10 +141,6 @@ nav .logo{
 	display: none;
 }
 
-.categories{
-	color:red;
-	height: 50px;
-}
 
 @media all and (max-width: 700px){
 	nav ul{
@@ -483,6 +479,12 @@ nav .logo{
 
 /* Project Pages */
 
+.categories{
+	color:red;
+	height: 50px;
+}
+
+
 .project_pages_images{
 	margin: auto;
 	display: flex;
@@ -634,4 +636,5 @@ nav .logo{
 	}
 
 }
+
 
