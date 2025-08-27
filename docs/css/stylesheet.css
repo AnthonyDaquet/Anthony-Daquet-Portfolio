@@ -481,8 +481,9 @@ nav .logo{
 
 .categories{
 	color:red;
-	height: 50px;
+	height: auto;
 	margin: auto;
+	display: inline-block;
 	align-items: center;
 	background-color:green;
 }
@@ -639,6 +640,7 @@ nav .logo{
 	}
 
 }
+
 
 
 
