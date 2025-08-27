@@ -141,6 +141,10 @@ nav .logo{
 	display: none;
 }
 
+nav #categories{
+	color:red;
+}
+
 @media all and (max-width: 700px){
 	nav ul{
 		margin-right: 0px;
@@ -627,4 +631,5 @@ nav .logo{
 		margin: 0;
 		width: 100%;
 	}
+
 }
