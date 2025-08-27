@@ -485,12 +485,12 @@ nav .logo{
 /* Project Pages */
 
 #categories{
-	color:red;
 	height: auto;
 	margin: auto;
 	display: inline-block;
 	align-items: center;
-	background-color:green;
+	background-color:pink;
+	font-size: .55em;
 	
 }
 
@@ -646,6 +646,7 @@ nav .logo{
 	}
 
 }
+
 
 
 
