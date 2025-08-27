@@ -35,8 +35,6 @@ hr{
 	align-content: center;
 }
 
-/* TEST 
-
 
 nav{
 	background-color: rgb(53,53,53);
@@ -143,8 +141,6 @@ nav .logo{
 .show, .icon, input {
 	display: none;
 }
-
-*/
 
 
 @media all and (max-width: 700px){
@@ -646,6 +642,7 @@ nav .logo{
 	}
 
 }
+
 
 
 
