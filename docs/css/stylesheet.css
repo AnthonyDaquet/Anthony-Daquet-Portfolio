@@ -141,8 +141,9 @@ nav .logo{
 	display: none;
 }
 
-nav #categories{
+.categories{
 	color:red;
+	height: 50px;
 }
 
 @media all and (max-width: 700px){
@@ -633,3 +634,4 @@ nav #categories{
 	}
 
 }
+
