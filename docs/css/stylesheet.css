@@ -479,13 +479,14 @@ nav .logo{
 
 /* Project Pages */
 
-.categories{
+#categories{
 	color:red;
 	height: auto;
 	margin: auto;
 	display: inline-block;
 	align-items: center;
 	background-color:green;
+	
 }
 
 
@@ -640,6 +641,7 @@ nav .logo{
 	}
 
 }
+
 
 
 
