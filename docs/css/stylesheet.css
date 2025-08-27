@@ -482,6 +482,9 @@ nav .logo{
 .categories{
 	color:red;
 	height: 50px;
+	margin: auto;
+	align-items: center;
+	background-color: rgba(0,63,78,1);
 }
 
 
@@ -636,5 +639,6 @@ nav .logo{
 	}
 
 }
+
 
 
