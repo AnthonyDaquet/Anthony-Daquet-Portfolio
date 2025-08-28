@@ -486,8 +486,9 @@ nav .logo{
 	margin: auto;
 	display: inline-block;
 	align-items: center;
+	justify-content: center;
 	background-color:red;
-	font-size: .55em;
+	font-size: .75em;
 }
 
 
@@ -642,6 +643,7 @@ nav .logo{
 	}
 
 }
+
 
 
 
