@@ -485,9 +485,17 @@ nav .logo{
 	margin: auto;
 	display: inline-block;
 	align-items: center;
-	background-color:pink;
+	background-color:red;
 	font-size: .55em;
 	
+}
+
+#categories ul li a{
+	height: auto;
+	margin: auto;
+	display: inline-block;
+	align-items: center;
+	font-size: .55em;
 }
 
 
@@ -642,6 +650,7 @@ nav .logo{
 	}
 
 }
+
 
 
 
