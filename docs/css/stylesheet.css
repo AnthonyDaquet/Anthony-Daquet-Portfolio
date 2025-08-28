@@ -480,7 +480,7 @@ nav .logo{
 
 /* Project Pages */
 
-/*
+
 #categories{
 	height: auto;
 	margin: auto;
@@ -488,17 +488,8 @@ nav .logo{
 	align-items: center;
 	background-color:red;
 	font-size: .55em;
-	
 }
 
-#categories ul li a{
-	height: auto;
-	margin: auto;
-	display: inline-block;
-	align-items: center;
-	font-size: .55em;
-}
-*/
 
 .project_pages_images{
 	margin: auto;
@@ -651,6 +642,7 @@ nav .logo{
 	}
 
 }
+
 
 
 
