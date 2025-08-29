@@ -647,19 +647,8 @@ nav .logo{
 
 
 /* Resume Page */
-@media (max-width: 750px){
-		.pdfframe1 {
-		visibility: hidden;
-			position: fixed;
-}
 
 
-	@media (max-width: 751px) {
-    .pdfframe2 {
-       visibility: hidden;
-			position: fixed;
-    }
-}
 
 
 
