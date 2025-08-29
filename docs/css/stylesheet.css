@@ -653,6 +653,7 @@ nav .logo{
         display: block;
 	position: relative;
 	 width: 95%;
+	height: 100%;
 	 /* Or inline-block, inline, etc. */
     }
 
@@ -660,7 +661,7 @@ nav .logo{
         display: none;
     }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
         .pdfframe1 {
             display: none; /* Hide the mobile element */
         }
@@ -669,6 +670,7 @@ nav .logo{
             display: block; /* Show the desktop element */
         }
     }
+
 
 
 
