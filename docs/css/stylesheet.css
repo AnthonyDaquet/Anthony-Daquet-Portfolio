@@ -647,6 +647,13 @@ nav .logo{
 
 
 /* Resume Page */
+.pdfframe{
+	width: 900;
+	height: 900;
+	border-color: red;
+	border: 10px;
+	margin: 10px;
+
 
 @media (max-width: 450px){
 		.pdfframe{
@@ -665,6 +672,7 @@ nav .logo{
 		width: 275;
 		height: 275;
 	}
+
 
 
 
