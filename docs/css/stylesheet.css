@@ -654,12 +654,13 @@ nav .logo{
 }
 
 
-	@media only screen and (max-width: 751px) {
+	@media (max-width: 751px) {
     .pdfframe2 {
        visibility: hidden;
 			position: fixed;
     }
 }
+
 
 
 
