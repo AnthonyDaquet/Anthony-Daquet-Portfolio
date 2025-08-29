@@ -648,6 +648,8 @@ nav .logo{
 
 /* Resume Page */
 .pdfframe1{
+	width: 900;
+	height: 900;
 	margin: auto;
 	display: flex;
 	text-align: center;
@@ -669,39 +671,29 @@ nav .logo{
 
 }
 
-@media (max-width: 871px){
-		.pdfframe1{
-		font-size: 80%;
-	}
-}
-
 @media (max-width: 450px){
 		.pdfframe2{
-		font-size: 1em;
-	}
-	
-	.image__img{
-		border-radius: 10px;
-	}
-	
-	#welcome{
-		font-size: 95%;
+			width: 400;
+			height: 400;
 	}
 }
 
 @media (max-width: 350px){
 		.pdfframe2{
-		font-size: .70em;
+		width: 300;
+			height: 300;
 	}
 }
 
 @media (max-width: 300px){
 		.pdfframe2{
-		font-size: .55em;
-	}
+			width: 250;
+			height: 250;	
+		}
 	
 
 }
+
 
 
 
