@@ -662,11 +662,12 @@ nav .logo{
 
 }
 
-	@media (min-width: 701px){
+	@media (max-width: 701px){
 		.pdfframe2{
 		visibility: hidden;
 			position: fixed;
 	}
+
 
 
 
