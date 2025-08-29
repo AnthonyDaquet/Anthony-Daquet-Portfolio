@@ -650,7 +650,9 @@ nav .logo{
 /* Resume Page */
 
 .desktoppdf {
-        display: block;
+        width: 100px;
+	height: 200px;
+	display: block;
 	 /* Or inline-block, inline, etc. */
     }
 
@@ -658,7 +660,7 @@ nav .logo{
         display: none;
     }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
         .desktoppdf {
             display: none; /* Hide the mobile element */
         }
@@ -667,6 +669,7 @@ nav .logo{
             display: block; /* Show the desktop element */
         }
     }
+
 
 
 
