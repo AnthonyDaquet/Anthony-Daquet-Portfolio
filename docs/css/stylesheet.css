@@ -655,16 +655,16 @@ nav .logo{
     }
 
     .mobilepdf {
-        display: none;
+        display: block;
     }
 
 @media screen and (max-width: 375px) {
         .desktoppdf {
-            display: none;
+            display: block;
         }
 
         .mobilepdf {
-            display: block;
+            display: none;
         }
     }
 
