@@ -647,31 +647,63 @@ nav .logo{
 
 
 /* Resume Page */
-.pdfframe{
-	width: 900;
-	height: 900;
-	border-color: red;
-	border: 10px;
-	margin: 10px;
+.pdfframe1{
+	margin: auto;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 2vh;
+}
 
+
+@media (max-width: 700px){
+		.pdfframe1{
+		visibility: hidden;
+			position: fixed;
+}
+
+@media (min-width: 701px){
+		.pdfframe2{
+		visibility: hidden;
+			position: fixed;
+	}
+
+}
+
+@media (max-width: 871px){
+		.pdfframe1{
+		font-size: 80%;
+	}
+}
 
 @media (max-width: 450px){
-		.pdfframe{
-		width: 425;
-		height: 425;
-		}
+		.pdfframe2{
+		font-size: 1em;
+	}
+	
+	.image__img{
+		border-radius: 10px;
+	}
+	
+	#welcome{
+		font-size: 95%;
+	}
+}
 
 @media (max-width: 350px){
-		.pdfframe{
-		width: 325;
-		height: 325;
+		.pdfframe2{
+		font-size: .70em;
+	}
 }
 
 @media (max-width: 300px){
-		.pdfframe{
-		width: 275;
-		height: 275;
+		.pdfframe2{
+		font-size: .55em;
 	}
+	
+
+}
+
 
 
 
