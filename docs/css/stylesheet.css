@@ -647,21 +647,23 @@ nav .logo{
 
 
 /* Resume Page */
+ .pdfframe1 {
+        display: block; /* Or inline-block, inline, etc. */
+    }
 
+    .pdfframe2 {
+        display: none;
+    }
 
+@media screen and (min-width: 375px) {
+        .pdfframe1 {
+            display: none; /* Hide the mobile element */
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
+        .pdfframe2 {
+            display: block; /* Show the desktop element */
+        }
+    }
 
 
 
