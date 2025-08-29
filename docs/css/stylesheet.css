@@ -660,11 +660,11 @@ nav .logo{
 
 @media screen and (max-width: 375px) {
         .desktoppdf {
-            display: none;
+            visibility: hidden;
         }
 
         .mobilepdf {
-            visibility: hidden;
+            display: block;
         }
     }
 
