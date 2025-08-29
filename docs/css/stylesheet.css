@@ -656,11 +656,15 @@ nav .logo{
 
     .mobilepdf {
         visibility: hidden;
+	position:fixed;
+
     }
 
-@media (max-width: 375px) {
+@media (max-width: 350px) {
         .desktoppdf {
             visibility: hidden;
+	position:fixed;
+
         }
 
         .mobilepdf {
