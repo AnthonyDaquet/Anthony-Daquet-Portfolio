@@ -650,17 +650,17 @@ nav .logo{
 /* Resume Page */
 
 .desktoppdf {
-	display: none;
+	display: block;
 
     }
 
     .mobilepdf {
-        display: block;
+        display: none;
     }
 
 @media screen and (max-width: 375px) {
         .desktoppdf {
-            display: block;
+            display: none;
         }
 
         .mobilepdf {
