@@ -648,25 +648,19 @@ nav .logo{
 
 /* Resume Page */
 
-@media (max-width: 375px){
+@media (max-width: 750px){
 		.pdfframe1{
 		visibility: hidden;
 			position: fixed;
 }
 
-@media (min-width: 376px){
-		.pdfframe2{
-		visibility: hidden;
-			position: fixed;
-	}
 
+	@media only screen and (max-width: 376px) {
+    .pdfframe2 {
+        display: none;
+    }
 }
 
-	@media (max-width: 701px){
-		.pdfframe2{
-		visibility: hidden;
-			position: fixed;
-	}
 
 
 
