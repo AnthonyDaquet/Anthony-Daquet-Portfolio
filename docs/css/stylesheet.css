@@ -650,8 +650,8 @@ nav .logo{
 /* Resume Page */
 
 .desktoppdf {
-        width: 95%;
-	height: 95%;
+        width: 1000px;
+	height: 1000px;
 	display: block;
 	 /* Or inline-block, inline, etc. */
     }
