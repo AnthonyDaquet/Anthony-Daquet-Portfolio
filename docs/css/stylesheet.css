@@ -652,7 +652,7 @@ nav .logo{
 .pdfframe1 {
         display: inline-block;
 	 width: 95%;
-	 height: 900px!important;
+	 height: 90%;
 	 /* Or inline-block, inline, etc. */
     }
 
@@ -669,6 +669,7 @@ nav .logo{
             display: block; /* Show the desktop element */
         }
     }
+
 
 
 
