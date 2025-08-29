@@ -649,7 +649,7 @@ nav .logo{
 /* Resume Page */
 
 .pdfframe1 {
-        display: block;
+        display: inline-block;
 	 width: 95%;
 	 height: 900px!important;
 	 /* Or inline-block, inline, etc. */
@@ -668,6 +668,7 @@ nav .logo{
             display: block; /* Show the desktop element */
         }
     }
+
 
 
 
