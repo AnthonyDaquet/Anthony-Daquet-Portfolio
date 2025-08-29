@@ -647,7 +647,18 @@ nav .logo{
 
 
 /* Resume Page */
- .pdfframe1 {
+.resumeframe {
+	border-radius: 10px;
+	background-color: rgba(0,63,78,1);
+	width: 85%;
+	color: white;
+	margin: auto;
+	display: block;
+	text-align: center;
+	box-shadow: 3px 3px 7px rgba(0,0,0,.5);
+} 
+
+.pdfframe1 {
         display: block;
 	 width: 95%;
 	 height: 900px;
@@ -667,6 +678,7 @@ nav .logo{
             display: block; /* Show the desktop element */
         }
     }
+
 
 
 
