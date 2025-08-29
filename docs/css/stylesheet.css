@@ -648,12 +648,12 @@ nav .logo{
 
 
 /* Resume Page */
-
+/*
 .desktoppdf {
         width: 1000px;
 	height: 1000px;
 	display: block;
-	 /* Or inline-block, inline, etc. */
+
     }
 
     .mobilepdf {
@@ -662,14 +662,14 @@ nav .logo{
 
 @media screen and (max-width: 375px) {
         .desktoppdf {
-            display: none; /* Hide the mobile element */
+            display: none;
         }
 
         .mobilepdf {
-            display: block; /* Show the desktop element */
+            display: block;
         }
     }
-
+*/
 
 
 
