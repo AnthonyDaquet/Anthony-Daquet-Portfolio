@@ -649,27 +649,25 @@ nav .logo{
 
 /* Resume Page */
 
-.pdfframe1 {
+.desktoppdf {
         display: block;
-	position: relative;
-	 width: 95%;
-	height: 100%;
 	 /* Or inline-block, inline, etc. */
     }
 
-    .pdfframe2 {
+    .mobilepdf {
         display: none;
     }
 
-@media screen and (max-width: 375px) {
-        .pdfframe1 {
+@media screen and (max-width: 768px) {
+        .desktoppdf {
             display: none; /* Hide the mobile element */
         }
 
-        .pdfframe2 {
+        .mobilepdf {
             display: block; /* Show the desktop element */
         }
     }
+
 
 
 
