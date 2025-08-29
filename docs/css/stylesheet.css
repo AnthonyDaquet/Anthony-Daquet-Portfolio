@@ -646,9 +646,25 @@ nav .logo{
 }
 
 
+/* Resume Page */
 
+@media (max-width: 450px){
+		.pdfframe{
+		width: 425;
+		height: 425;
+		}
 
+@media (max-width: 350px){
+		.pdfframe{
+		width: 325;
+		height: 325;
+}
 
+@media (max-width: 300px){
+		.pdfframe{
+		width: 275;
+		height: 275;
+	}
 
 
 
