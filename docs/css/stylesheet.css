@@ -650,10 +650,6 @@ nav .logo{
 .pdfframe1{
 	width: 900;
 	height: 900;
-	margin: auto;
-	display: flex;
-	text-align: center;
-	justify-content: center;
 }
 
 
@@ -693,6 +689,7 @@ nav .logo{
 	
 
 }
+
 
 
 
