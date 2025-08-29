@@ -648,11 +648,9 @@ nav .logo{
 
 
 /* Resume Page */
-/*
+
 .desktoppdf {
-        width: 1000px;
-	height: 1000px;
-	display: block;
+	display: none;
 
     }
 
@@ -669,8 +667,6 @@ nav .logo{
             display: block;
         }
     }
-*/
-
 
 
 
