@@ -658,13 +658,14 @@ nav .logo{
         visibility: hidden;
     }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
         .desktoppdf {
             visibility: hidden;
         }
 
         .mobilepdf {
             display: block;
+			width:100%;
         }
     }
 
