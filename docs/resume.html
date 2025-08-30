@@ -10,7 +10,18 @@
                     height: 100%;
                     overflow: hidden; /* Hide scrollbars if content fits */
                 }
-             
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                }
+
+				@media screen and (max-width: 768px) {
+					iframe {
+						width: 100%;
+						height: 80vh;
+					}
+				}
             </style>
 	<link rel="icon" type="image/x-icon" href="images/favicon-01.png">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -33,6 +44,6 @@
 			 type='application/pdf'></object>
 		
 		-->
-		<embed src="images/anthonydaquetresume2025.pdf" type="application/pdf" width="100%" height="1000px">
+		<iframe src="images/anthonydaquetresume2025.pdf"></iframe>
 
 </html>
