@@ -651,6 +651,7 @@ nav .logo{
 
 .desktoppdf {
 	display: block;
+	width:95%;
 
     }
 
@@ -667,11 +668,6 @@ nav .logo{
 
         }
 
-        .mobilepdf {
-            display: block;
-			width:100%;
-        }
-    }
 
 
 
