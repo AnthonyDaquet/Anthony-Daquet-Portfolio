@@ -21,7 +21,7 @@
 				}
 
                 .iframe-container iframe{
-					position: relative;
+					position: absolute;
 					width: 100vw;
 					height: 100vh;
 					top: 0;
@@ -30,16 +30,17 @@
 					bottom: 0;
 				}
 
-				@media screen and (max-width: 375px) {
+				@media screen and (min-width: 375px) {
 					.iframe-container{
 						width: 50%;
 						height: 50%;
 						display: hidden;
+						background-color: pink;
 
 					}
 				}
 
-				@media screen and (max-width: 375px) {
+				@media screen and (min-width: 375px) {
 					.iframe-container iframe{
 						width: 50%;
 						height: 50%;
