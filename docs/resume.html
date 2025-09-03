@@ -35,7 +35,7 @@
 					display: none;
 				}
 
-				@media (max-width: 376px) {
+				@media (max-width: 375px) {
 					.iframe-container{
 						width: 100vw;
 					height: 100vh;
@@ -44,17 +44,18 @@
 
 					}
 				}
-				@media (min-width: 375px) {
+				@media (min-width: 376px) {
 					.iframe-container{
 						width: 100vw;
 					height: 100vh;
 						visibility: hidden;
+						position: fixed;
 						background-color: rgb(21, 95, 84);
 
 					}
 				}
 
-				@media (min-width: 375px) {
+				@media (max-width: 375px) {
 					.mobilepdf{
 						display: block;
 						background-color: blueviolet;
@@ -63,9 +64,10 @@
 					}
 				}
 
-				@media (min-width: 374px) {
+				@media (min-width: 376px) {
 					.mobilepdf{
 						visibility: hidden;
+						position: fixed;
 						background-color: rgb(43, 162, 226);
 						width: 100vw;
 					height: 100vh;
