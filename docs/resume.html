@@ -30,6 +30,19 @@
 					bottom: 0;
 				}
 
+				.mobilepdf {
+					display: none;
+				}
+
+				@media screen and (max-width: 376px) {
+					.iframe-container{
+						width: auto;
+						height: auto;
+						display: block;
+						background-color: rgb(21, 95, 84);
+
+					}
+				}
 				@media screen and (min-width: 375px) {
 					.iframe-container{
 						width: auto;
@@ -41,8 +54,9 @@
 				}
 
 				@media screen and (min-width: 375px) {
-					.iframe-container iframe{
-
+					.mobilepdf{
+						display: block;
+						background-color: blueviolet;
 					}
 				}
 			
@@ -72,6 +86,13 @@
 		-->
 			 <div class="iframe-container">
 		<iframe src="images/anthonydaquetresume2025.pdf"></iframe>
+		</div>
+
+		<div class="mobilepdf">
+			<object class="pdfframe2"
+			 data="images/anthonydaquetresume2025.pdf" 
+			 width="95%" 
+			 type='application/pdf'></object>
 		</div>
 
 </html>
