@@ -9,7 +9,7 @@
                     padding: 0;
                     height: 100%;
                     overflow: hidden; /* Hide scrollbars if content fits */
-					background-color: rgb(20, 39, 255);
+					background-color: rgb(20, 255, 122);
                 }
 
 				.iframe-container {
@@ -49,8 +49,8 @@
 
 				@media (max-width: 500px) {
 					.mobilepdf{
-						position: relative;
-						visibility: visible;
+						position: relative!important;
+						visibility: visible!important;
 						background-color: rgb(84, 84, 84);
 						width: 100%;
 					height: 100%;
@@ -78,6 +78,8 @@
 			 data="images/anthonydaquetresume2025.pdf" 
 			 width="95%" 
 			 type='application/pdf'></object>
+
+			 <iframe src="images/anthonydaquetresume2025.pdf#zoom=75"></iframe>
 		
 		-->
 
@@ -86,7 +88,9 @@
 		</div>
 
 		<div class="mobilepdf">
-			<iframe src="images/anthonydaquetresume2025.pdf#zoom=75"></iframe>
+			<object class="mobilepdf"
+			 data="images/anthonydaquetresume2025.pdf" 
+			 type='application/pdf'></object>
 		</div>
 
 </html>
